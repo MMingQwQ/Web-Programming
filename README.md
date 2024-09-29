@@ -1,6 +1,7 @@
 # Web-Programming
 
 This repository contains assignments and code solutions for the SOEN 287 course. All assignments are developed using **VSCode**. Language: **HTML, JavaScript, CSS**
+
 **Type:**Individual Assignment
 
 ## Course Objective
