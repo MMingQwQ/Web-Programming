@@ -57,19 +57,19 @@ The course introduces students to web development and programming concepts. Topi
 
 - **Key Features:**
 
-  - **Reusable Template with Dynamic Header/Footer:**
-  - **User Authentication System:**
-  - **Pet Registration System:**
-  - **File Management for Data Persistence:**  
+  - **Reusable Template with Dynamic Header/Footer**
+  - **User Authentication System**
+  - **Pet Registration System**
+  - **File Management for Data Persistence**  
     Managed three key files on the server:
 
-    1. **Login File:**
-    2. **Available Pet Information File:**
-    3. **Pet Information Retrieval:**
+    1. **Login File**
+    2. **Available Pet Information File**
+    3. **Pet Information Retrieval**
 
-  - **Account Creation and Validation:**
-  - **Session Management and Logout:**
-  - **Privacy and Data Protection:**
+  - **Account Creation and Validation**
+  - **Session Management and Logout**
+  - **Privacy and Data Protection**
 
 ## IDE
 
