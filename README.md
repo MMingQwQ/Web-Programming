@@ -32,8 +32,6 @@ The course introduces students to web development and programming concepts. Topi
   - **Form Validation:** Implement client-side validation for web forms, ensuring users input correct data before submission.
   - **User Interaction:** Add interactive elements like buttons and prompts that update the page content based on user input.
 
----
-
 ### **Assignment 2: Adopt a Pet Website - Part 1**
 
 - **Objective:**  
