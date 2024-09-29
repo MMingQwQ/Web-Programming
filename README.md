@@ -63,9 +63,9 @@ The course introduces students to web development and programming concepts. Topi
   - **File Management for Data Persistence**  
     Managed three key files on the server:
 
-    1. **Login File**
-    2. **Available Pet Information File**
-    3. **Pet Information Retrieval**
+    - **Login File**
+    - **Available Pet Information File**
+    - **Pet Information Retrieval**
 
   - **Account Creation and Validation**
   - **Session Management and Logout**
