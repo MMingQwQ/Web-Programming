@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2</title>
+</head>
+
+<body>
+    <h1>JavaScript Array</h1>
+    <h2>Print the elements of an array using toString()</h2>
+    <p id="taskA"></p>
+    <h2>Print the elements of an array using join()</h2>
+    <p id="taskB"></p>
+    <h2>Print the elements of an array in the format of index: value</h2>
+    <p id="taskC"></p>
+    <script>
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("taskA").innerHTML = fruits.toString();
+
+        document.getElementById("taskB").innerHTML = fruits.join("&");
+        let txt = "";
+        let index = 0;
+        fruits.forEach(myFunction);
+        document.getElementById("taskC").innerHTML = txt;
+
+        function myFunction(value, index, array) {
+            txt += index + " : " + value + "<br>";
+            index++;
+        }
+    </script>
+</body>
+
+</html>

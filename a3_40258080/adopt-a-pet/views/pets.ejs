@@ -1,0 +1,39 @@
+<%- include('partials/header') %>
+    <main>
+        <div class="care-container">
+            <h1>Available Pets</h1>
+            <% if (pets.length> 0) { %>
+                <div class="pet-list">
+                    <% pets.forEach(pet=> { %>
+                        <div class="pet-card">
+                            <h2>
+                                <%= pet.type %> - <%= pet.breed %>
+                            </h2>
+                            <p><strong>Age:</strong>
+                                <%= pet.age %>
+                            </p>
+                            <p><strong>Gender:</strong>
+                                <%= pet.gender %>
+                            </p>
+                            <p><strong>Compatibility:</strong>
+                                <%= pet.compatibility %>
+                            </p>
+                            <p><strong>Comments:</strong>
+                                <%= pet.comments %>
+                            </p>
+                            <p><strong>Owner:</strong>
+                                <%= pet.owner_initials %>
+                            </p>
+                            <p><strong>Email:</strong>
+                                <%= pet.owner_email %>
+                            </p>
+                        </div>
+                        <% }); %>
+                </div>
+                <% } else { %>
+                    <p>No pets found matching your criteria.</p>
+                    <% } %>
+        </div>
+    </main>
+    </div>
+    <%- include('partials/footer') %>

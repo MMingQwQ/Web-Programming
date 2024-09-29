@@ -1,0 +1,59 @@
+<%- include('partials/header') %>
+    <main>
+        <div class="form-container">
+            <h2>Give Away Your Pet</h2>
+            <form id="giveaway-pet-form" action="/giveaway-pet" method="post">
+                <label for="pet-type">Pet Type:</label>
+                <select id="pet-type" name="pet_type">
+                    <option value="default">Please select one of the following option
+                    </option>
+                    <option value="cat">Cat</option>
+                    <option value="dog">Dog</option>
+                </select>
+
+                <label for="breed">Breed:</label>
+                <input type="text" id="breed" name="breed" placeholder="Breed or Mix">
+
+                <label for="age">Age of Animal:</label>
+                <select id="age" name="age">
+                    <option value="default">Please select one of the following option
+                    </option>
+                    <option value="puppy_kitten">Puppy/Kitten</option>
+                    <option value="young">Young</option>
+                    <option value="adult">Adult</option>
+                    <option value="senior">Senior</option>
+                </select>
+
+                <label for="gender">Animal Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="default">Please select one of the following option
+                    </option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <label>Compatibility:</label>
+                <small>please check at least one box below:</small>
+                <label><input type="checkbox" name="compatibility" value="good_with_dogs"> Gets along with other
+                    dogs</label>
+                <label><input type="checkbox" name="compatibility" value="good_with_cats"> Gets along with other
+                    cats</label>
+                <label><input type="checkbox" name="compatibility" value="good_with_children"> Suitable for a family
+                    with small
+                    children</label>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments"
+                    placeholder="Tell us something great about your pet!"></textarea>
+
+                <label for="owner-name">Your Name:</label>
+                <input type="text" id="owner-name" name="owner_name" placeholder="Family name, Given name">
+
+                <label for="owner-email">Your Email:</label>
+                <input type="email" id="owner-email" name="owner_email" placeholder="email@example.com">
+
+                <button type="submit" name="submit">Submit</button>
+                <button type="reset" name="reset">Clear</button>
+            </form>
+        </div>
+    </main>
+    </div>
+    <%- include('partials/footer') %>

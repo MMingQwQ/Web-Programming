@@ -1,0 +1,62 @@
+<%- include('partials/header') %>
+    <main>
+        <form id="find-pet-form" action="/find-pet" method="post">
+            <h2> Find A Pet</h2>
+            <label for="pet-type">Cat or Dog:</label>
+            <select id="pet-type" name="pet_type">
+                <option value="default">Please select one of the following option</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="doesnt_matter">Doesn't Matter</option>
+            </select>
+
+            <label for="breed">Breed:</label>
+            <select id="breed" name="breed">
+                <option value="default">Please select one of the following option
+                </option>
+                <option value="Chihuahua">Dog: Chihuahua</option>
+                <option value="Yorkipoo">Dog: Yorkipoo</option>
+                <option value="Mix">Dog: Mix</option>
+                <option value="AmericanShorthair">Cat: American Shorthair</option>
+                <option value="BombayCat">Cat: Bombay Cat</option>
+                <option value="Mix">Cat: Mix</option>
+                <option value="doesnt_matter">Doesn't Matter</option>
+            </select>
+            <label for="age">Preferred Age:</label>
+            <select id="age" name="age">
+                <option value="default">Please select one of the following option
+                </option>
+                <option value="puppy_kitten">Puppy/Kitten</option>
+                <option value="young">Young</option>
+                <option value="adult">Adult</option>
+                <option value="senior">Senior</option>
+                <option value="doesnt_matter">Doesn't Matter</option>
+            </select>
+
+            <label for="gender">Preferred Gender:</label>
+            <select id="gender" name="gender">
+                <option value="default">Please select one of the following option</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="doesnt_matter">Doesn't Matter</option>
+            </select>
+
+            <fieldset>
+                <legend>Compatibility:</legend>
+                <small>please check at least one box below:</small><br>
+                <label><input type="checkbox" name="compatibility" value="good_with_dogs"> Gets along with other
+                    dogs</label><br>
+                <label><input type="checkbox" name="compatibility" value="good_with_cats"> Gets along with other
+                    cats</label><br>
+                <label><input type="checkbox" name="compatibility" value="good_with_children"> Suitable for a family
+                    with
+                    small children</label>
+            </fieldset>
+
+            <button type="submit" name="submit">Submit</button>
+            <button type="reset" name="reset">Clear</button>
+        </form>
+
+    </main>
+    </div>
+    <%- include('partials/footer') %>

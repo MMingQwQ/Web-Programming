@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3</title>
+    <script src="Q3.js"></script>
+</head>
+
+<body>
+    <h1>JavaScript functions</h1>
+    <p id="QA"></p><br>
+    <p id="QB"></p><br>
+    <p id="QC"></p><br>
+    <p id="QD"></p><br>
+    <p id="QE"></p><br>
+    <p id="QF"></p><br>
+
+    <script>
+        const numbers = [40, 100, 1, 5, 25, 10];
+        document.getElementById("QA").innerHTML = "addNumbers: " + addNumbers(numbers);
+
+        document.getElementById("QB").innerHTML = "findMaxNumber: " + findMaxNumber(1, 3, 5, 11, 2, 6);
+
+        const mixedData = [4, 5, "3.0 birds", true, "birds2"];
+        document.getElementById("QC").innerHTML = "addOnlyNumbers: " + addOnlyNumbers(mixedData);
+
+        let string1 = "0I12love34web56pro7gra8mming9";
+        document.getElementById("QD").innerHTML = "getDigits: " + getDigits(string1);
+
+        let string2 = "See you later!";
+        document.getElementById("QE").innerHTML = "reverseString: " + reverseString(string2);
+
+        document.getElementById("QF").innerHTML = "getCurrentDate: " + "<i>" + getCurrentDate() + "</i>";
+    </script>
+</body>
+
+</html>

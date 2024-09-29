@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY PAWS</title>
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link rel="stylesheet" href="/css/Q7.css">
+</head>
+
+<body>
+    <header>
+        <a href="/">
+            <img id="logo" src="/images/logo.png" alt="Pet Adoption Service Logo">
+            <h1>HAPPY PAWS - Pet Adoption Service</h1>
+            <div id="date-time">Time</div><br>
+            <div id="header-message">
+                <% if (loggedin) { %>
+                    <p>Welcome <strong id="header-username">
+                            <%= username %>
+                        </strong> ! You are currently signed in.</p>
+                    <% } else { %>
+                        <p>Welcome Guest! You are currently signed out.</p>
+                        <% } %>
+            </div>
+        </a>
+    </header>
+    <div class="container">
+        <aside class="side-menu">
+            <a href="/" class="menu-link">Home Page</a><br>
+            <a href="create-account" class="menu-link">Create An Account</a><br>
+            <a href="find-pet" class="menu-link">Find a Dog/Cat</a><br>
+            <a href="dog-care" class="menu-link">Dog Care</a><br>
+            <a href="cat-care" class="menu-link">Cat Care</a><br>
+            <a href="giveaway-pet" class="menu-link">Have A Pet to Give Away</a><br>
+            <a href="sign-out" class="menu-link">Sign Out</a><br>
+            <a href="contact" class="menu-link">Contact Us</a><br>
+        </aside>

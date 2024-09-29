@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4</title>
+    <script src="Q4.js"></script>
+</head>
+
+<body>
+    <h1>Order Books Online</h1>
+
+    <div style="border: 2px solid darkgrey; padding: 10px;">
+        <table>
+            <tr>
+                <th>Book</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td class="name">Basic Web Programming</td>
+                <td><input class="quantity" type="text" size="3"></td>
+                <td class="price">$19.99</td>
+            </tr>
+            <tr>
+                <td class="name">Intro to PHP</td>
+                <td><input class="quantity" type="text" size="3"></td>
+                <td class="price">$86.00</td>
+            </tr>
+            <tr>
+                <td class="name">Advanced JQuery</td>
+                <td><input class="quantity" type="text" size="3"></td>
+                <td class="price">$55.00</td>
+            </tr>
+        </table>
+        <br>
+        <button onclick="sum()">Calculate the order</button>
+    </div>
+    <div id="summary"></div>
+
+
+</body>
+
+</html>

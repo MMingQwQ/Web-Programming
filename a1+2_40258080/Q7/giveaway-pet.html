@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Have a Pet to Give Away</title>
+    <link rel="stylesheet" href="Q7.css">
+</head>
+
+<body>
+    <header>
+        <a href="home.html">
+            <img src="logo.png" alt="Pet Adoption Service Logo">
+            <h1>HAPPY PAWS - Pet Adoption Service</h1>
+            <h2>Have a Pet to Give Away</h2>
+            <div id="date-time">Time</div>
+        </a>
+    </header>
+    <div class="container">
+        <aside class="side-menu">
+            <a href="home.html" class="menu-link">Home Page</a><br>
+            <a href="pets.html" class="menu-link">Browse Available Pets</a><br>
+            <a href="find-pet.html" class="menu-link">Find a Dog/Cat</a><br>
+            <a href="dog-care.html" class="menu-link">Dog Care</a><br>
+            <a href="cat-care.html" class="menu-link">Cat Care</a><br>
+            <a href="giveaway-pet.html" class="menu-link">Have a Pet to Give Away</a><br>
+            <a href="contact.html" class="menu-link">Contact Us</a><br>
+        </aside>
+        <main>
+            <div class="form-container">
+                <h2>Give Away Your Pet</h2>
+                <form id="giveaway-pet-form">
+                    <label for="pet-type">Pet Type:</label>
+                    <select id="pet-type" name="pet_type">
+                        <option value="default">Please select one of the following option
+                        </option>
+                        <option value="cat">Cat</option>
+                        <option value="dog">Dog</option>
+                    </select>
+
+                    <label for="breed">Breed:</label>
+                    <input type="text" id="breed" name="breed" placeholder="Breed or Mix">
+
+                    <label for="age">Age of Animal:</label>
+                    <select id="age" name="age">
+                        <option value="default">Please select one of the following option
+                        </option>
+                        <option value="puppy_kitten">Puppy/Kitten</option>
+                        <option value="young">Young</option>
+                        <option value="adult">Adult</option>
+                        <option value="senior">Senior</option>
+                    </select>
+
+                    <label for="gender">Animal Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="default">Please select one of the following option
+                        </option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <label>Compatibility:</label>
+                    <small>please check at least one box below:</small>
+                    <label><input type="checkbox" name="compatibility" value="good_with_dogs"> Gets along with other
+                        dogs</label>
+                    <label><input type="checkbox" name="compatibility" value="good_with_cats"> Gets along with other
+                        cats</label>
+                    <label><input type="checkbox" name="compatibility" value="good_with_children"> Suitable for a family
+                        with small
+                        children</label>
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments"
+                        placeholder="Tell us something great about your pet!"></textarea>
+
+                    <label for="owner-name">Your Name:</label>
+                    <input type="text" id="owner-name" name="owner_name" placeholder="Family name, Given name">
+
+                    <label for="owner-email">Your Email:</label>
+                    <input type="email" id="owner-email" name="owner_email" placeholder="email@example.com">
+
+                    <button type="submit" name="submit">Submit</button>
+                    <button type="reset" name="reset">Clear</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>© [2024] HAPPY PAWS - Pet Adoption Service. All Rights Reserved.</p>
+        <a href="privacy.html" class="privacy-link">Privacy/Disclaimer Statement</a>
+        <p>Your information will not be sold or misused. The website builder is not responsible for any incorrect
+            information posted by a pet owner.</p>
+    </footer>
+    <script src="Q7.js"></script>
+</body>
+
+</html>

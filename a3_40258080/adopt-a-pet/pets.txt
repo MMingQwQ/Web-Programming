@@ -1,0 +1,6 @@
+1:zzz0:cat:Mix:puppy_kitten:male:good_with_dogs, good_with_cats, good_with_children:good cat:Zh,M:ming@m.ca
+2:zzz0:dog:Mix:adult:male:good_with_dogs, good_with_cats, good_with_children:good dog:Zh,M:ming@m.ca
+3:zzz1:dog:Chihuahua:young:male:good_with_dogs, good_with_children:good Chihuahua:Zh,M:ming@m.ca
+4:zzz1:cat:AmericanShorthair:adult:female:good_with_cats, good_with_children:good American Shorthair:Zh,M:ming@m.ca
+5:zzz1:dog:Yorkipoo:senior:male:good_with_dogs, good_with_children:good Yorkipoo:Zh,M:ming@m.ca
+6:zzz1:cat:BombayCat:young:male:good_with_cats, good_with_children:good Bombay Cat:Zh,M:ming@m.ca
