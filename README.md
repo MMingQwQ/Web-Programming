@@ -71,4 +71,4 @@ The course introduces students to web development and programming concepts. Topi
 
 ## IDE
 
-- **VSCode**
+- **VSCode** (1.85.2)
